@@ -9,7 +9,7 @@ namespace ApiProduct.Controllers
     public class ProductController : ControllerBase
     {
         [HttpGet]
-        public List<Product> Get()
+        public List<Product> Get() 
         {
             return new List<Product>();
         }
