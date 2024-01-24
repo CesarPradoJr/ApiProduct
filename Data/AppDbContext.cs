@@ -1,5 +1,6 @@
 ﻿using ApiProduct.Models;
 using Microsoft.EntityFrameworkCore;
+using ProductAPI.Infrastructure.Mappings;
 
 namespace ApiProduct.Data;
 public class AppDbContext : DbContext
@@ -10,6 +11,7 @@ public class AppDbContext : DbContext
     public DbSet<Product> Products { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.ApplyConfiguration(new ProductMapping());
         base.OnModelCreating(modelBuilder);
     }
 }
