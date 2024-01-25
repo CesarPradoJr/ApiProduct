@@ -1,0 +1,104 @@
+2024-01-25 12:52:41.374 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-25 12:52:41.439 +00:00 [DBG] Hosting starting
+2024-01-25 12:52:41.610 +00:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0239B6EE31D28149203CA188FFB4366459EB2A4F)
+2024-01-25 12:52:41.719 +00:00 [INF] Now listening on: http://[::]:8080
+2024-01-25 12:52:41.720 +00:00 [INF] Now listening on: https://[::]:8081
+2024-01-25 12:52:41.720 +00:00 [DBG] Loaded hosting startup assembly ApiProduct
+2024-01-25 12:52:41.720 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-25 12:52:41.721 +00:00 [INF] Hosting environment: Development
+2024-01-25 12:52:41.721 +00:00 [INF] Content root path: /app
+2024-01-25 12:52:41.721 +00:00 [DBG] Hosting started
+2024-01-25 12:52:41.964 +00:00 [DBG] Connection id "0HN0TKI2CQ05D" accepted.
+2024-01-25 12:52:41.965 +00:00 [DBG] Connection id "0HN0TKI2CQ05D" started.
+2024-01-25 12:52:41.988 +00:00 [DBG] Connection 0HN0TKI2CQ05D established using the following protocol: "Tls13"
+2024-01-25 12:52:42.019 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger - null null
+2024-01-25 12:52:42.021 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-25 12:52:42.030 +00:00 [DBG] No candidates found for the request path '/swagger'
+2024-01-25 12:52:42.031 +00:00 [DBG] Request did not match any endpoints
+2024-01-25 12:52:42.047 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger - 301 0 null 26.3097ms
+2024-01-25 12:52:42.054 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/index.html - null null
+2024-01-25 12:52:42.054 +00:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-01-25 12:52:42.054 +00:00 [DBG] Request did not match any endpoints
+2024-01-25 12:52:42.097 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/index.html - 200 null text/html;charset=utf-8 43.3801ms
+2024-01-25 12:52:42.109 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/swagger-ui.css - null null
+2024-01-25 12:52:42.109 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-01-25 12:52:42.109 +00:00 [DBG] Request did not match any endpoints
+2024-01-25 12:52:42.119 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/swagger-ui-bundle.js - null null
+2024-01-25 12:52:42.120 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-01-25 12:52:42.120 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/swagger-ui-standalone-preset.js - null null
+2024-01-25 12:52:42.121 +00:00 [DBG] Request did not match any endpoints
+2024-01-25 12:52:42.121 +00:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-01-25 12:52:42.123 +00:00 [DBG] Request did not match any endpoints
+2024-01-25 12:52:42.157 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-25 12:52:42.158 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/swagger-ui.css - 200 144929 text/css 49.3543ms
+2024-01-25 12:52:42.166 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-25 12:52:42.167 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/swagger-ui-standalone-preset.js - 200 312163 text/javascript 46.4816ms
+2024-01-25 12:52:42.195 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-25 12:52:42.196 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/swagger-ui-bundle.js - 200 1061536 text/javascript 76.3148ms
+2024-01-25 12:52:42.285 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/swagger/v1/swagger.json - null null
+2024-01-25 12:52:42.286 +00:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-01-25 12:52:42.286 +00:00 [DBG] Request did not match any endpoints
+2024-01-25 12:52:42.336 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.8378ms
+2024-01-25 12:53:15.149 +00:00 [INF] Request starting HTTP/2 GET https://localhost:32768/api/Product - null null
+2024-01-25 12:53:15.174 +00:00 [DBG] 1 candidate(s) found for the request path '/api/Product'
+2024-01-25 12:53:15.176 +00:00 [DBG] Endpoint 'ApiProduct.Controllers.ProductController.GetProducts (ApiProduct)' with route pattern 'api/Product' is valid for the request path '/api/Product'
+2024-01-25 12:53:15.176 +00:00 [DBG] Request matched endpoint 'ApiProduct.Controllers.ProductController.GetProducts (ApiProduct)'
+2024-01-25 12:53:15.177 +00:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-01-25 12:53:15.178 +00:00 [INF] Executing endpoint 'ApiProduct.Controllers.ProductController.GetProducts (ApiProduct)'
+2024-01-25 12:53:15.190 +00:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ApiProduct.Models.Product]]] GetProducts() on controller ApiProduct.Controllers.ProductController (ApiProduct).
+2024-01-25 12:53:15.191 +00:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-01-25 12:53:15.191 +00:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-01-25 12:53:15.191 +00:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-01-25 12:53:15.192 +00:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-01-25 12:53:15.192 +00:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-01-25 12:53:15.193 +00:00 [DBG] Executing controller factory for controller ApiProduct.Controllers.ProductController (ApiProduct)
+2024-01-25 12:53:15.318 +00:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-01-25 12:53:15.340 +00:00 [DBG] Executed controller factory for controller ApiProduct.Controllers.ProductController (ApiProduct)
+2024-01-25 12:53:15.700 +00:00 [DBG] Entity Framework Core 8.0.1 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.1' with options: None
+2024-01-25 12:53:15.710 +00:00 [DBG] Compiling query expression: 
+'DbSet<Product>()'
+2024-01-25 12:53:15.786 +00:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Product>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.CreatedAt (DateTime) Required, 1], [Property: Product.DeletedAt (DateTime) Required, 2], [Property: Product.Description (string) Required, 3], [Property: Product.Name (string) Required, 4], [Property: Product.Stock (bool) Required, 5], [Property: Product.UpdatedAt (DateTime) Required, 6] }
+        SELECT p.Id, p.created_at, p.is_deleted, p.description, p.Name, p.Stock, p.updated_at
+        FROM Products AS p), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+    ApiProduct.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-01-25 12:53:15.800 +00:00 [DBG] Creating DbConnection.
+2024-01-25 12:53:15.806 +00:00 [DBG] Created DbConnection. (5ms).
+2024-01-25 12:53:15.809 +00:00 [DBG] Opening connection to database 'main' on server 'app.db'.
+2024-01-25 12:53:15.827 +00:00 [DBG] Opened connection to database 'main' on server '/app/app.db'.
+2024-01-25 12:53:15.829 +00:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-01-25 12:53:15.833 +00:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-01-25 12:53:15.834 +00:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2024-01-25 12:53:15.838 +00:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."created_at", "p"."is_deleted", "p"."description", "p"."Name", "p"."Stock", "p"."updated_at"
+FROM "Products" AS "p"
+2024-01-25 12:53:15.858 +00:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."created_at", "p"."is_deleted", "p"."description", "p"."Name", "p"."Stock", "p"."updated_at"
+FROM "Products" AS "p"
+2024-01-25 12:53:15.861 +00:00 [DBG] Closing data reader to 'main' on server '/app/app.db'.
+2024-01-25 12:53:15.865 +00:00 [DBG] A data reader for 'main' on server '/app/app.db' is being disposed after spending 3ms reading results.
+2024-01-25 12:53:15.867 +00:00 [DBG] Closing connection to database 'main' on server '/app/app.db'.
+2024-01-25 12:53:15.869 +00:00 [DBG] Closed connection to database 'main' on server 'app.db' (1ms).
+2024-01-25 12:53:15.871 +00:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-01-25 12:53:15.873 +00:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-01-25 12:53:15.873 +00:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-01-25 12:53:15.874 +00:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-25 12:53:15.874 +00:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-25 12:53:15.875 +00:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-25 12:53:15.875 +00:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ApiProduct.Models.Product, ApiProduct, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-25 12:53:15.884 +00:00 [INF] Executed action ApiProduct.Controllers.ProductController.GetProducts (ApiProduct) in 688.8826ms
+2024-01-25 12:53:15.884 +00:00 [INF] Executed endpoint 'ApiProduct.Controllers.ProductController.GetProducts (ApiProduct)'
+2024-01-25 12:53:15.886 +00:00 [DBG] 'AppDbContext' disposed.
+2024-01-25 12:53:15.888 +00:00 [DBG] Disposing connection to database 'main' on server 'app.db'.
+2024-01-25 12:53:15.889 +00:00 [DBG] Disposed connection to database 'main' on server 'app.db' (0ms).
+2024-01-25 12:53:15.889 +00:00 [INF] Request finished HTTP/2 GET https://localhost:32768/api/Product - 200 null application/json; charset=utf-8 740.7307ms
