@@ -13,10 +13,10 @@ public class ProductMapping : IEntityTypeConfiguration<Product>
         builder.HasKey(x => x.Id);
         builder.Property(e => e.Name).HasColumnName("Name");
         builder.Property(e => e.Stock).HasColumnName("Stock");
-        builder.Property(x => x.Description).HasColumnName("description");
-        builder.Property(e => e.CreatedAt).HasColumnName("created_at");
-        builder.Property(e => e.UpdatedAt).HasColumnName("updated_at");
-        builder.Property(e => e.DeletedAt).HasColumnName("is_deleted");
+        builder.Property(x => x.Description).HasColumnName("Description");
+        builder.Property(e => e.CreatedAt).HasColumnName("Created_at");
+        builder.Property(e => e.UpdatedAt).HasColumnName("Updated_at");
+        builder.Property(e => e.DeletedAt).HasColumnName("Is_deleted");
         
     }
 }

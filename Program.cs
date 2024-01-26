@@ -14,7 +14,9 @@ builder.Services.AddSwaggerGen();
 Log.Logger = new LoggerConfiguration()
         .MinimumLevel.Debug()
         .WriteTo.Console()
-        .WriteTo.File("log.txt")
+        .WriteTo.SQLite(
+            "DataSource=app.db;Cache=Shared",
+            tableName: "Logs")
         .CreateLogger();
 
 
