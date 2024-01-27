@@ -5,6 +5,7 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -14,9 +15,7 @@ builder.Services.AddSwaggerGen();
 Log.Logger = new LoggerConfiguration()
         .MinimumLevel.Debug()
         .WriteTo.Console()
-        .WriteTo.SQLite(
-            "DataSource=app.db;Cache=Shared",
-            tableName: "Logs")
+        .WriteTo.SQLite("DataSource=app.db;Version=3;", tableName: "Logs", batchSize: 1)
         .CreateLogger();
 
 
@@ -28,7 +27,7 @@ builder.Services.AddLogging(loggingBuilder =>
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseSqlite(connectionString:"DataSource=app.db;Cache=Shared");
+    options.UseSqlite(connectionString: "DataSource=app.db;Cache=Shared");
 });
 
 var app = builder.Build();
