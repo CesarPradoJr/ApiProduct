@@ -1,5 +1,6 @@
 ﻿using ApiProduct.Data;
 using ApiProduct.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -47,5 +48,13 @@ namespace ApiProduct.Controllers
 
             return CreatedAtAction("GetProduct", new { id = product.Id }, product);
         }
+
+        [HttpGet("secure")]
+        [Authorize] // Apenas usuários autenticados podem acessar este endpoint
+        public IActionResult Secure()
+        {
+            return Ok("Esta é uma rota segura!");
+        }
+
     }
 }
